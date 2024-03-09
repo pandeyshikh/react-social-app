@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Ashish\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express .js
+
+PATH: 
+  C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Fortect;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Ashish\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Ashish\AppData\Local\Programs\Python\Python311\;C:\Users\Ashish\AppData\Local\Microsoft\WindowsApps;C:\Python27;C:\Python27\Scripts;;C:\Users\Ashish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ashish\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  21.1.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/.js: Not found
+      at params.callback [as _callback] (C:\Users\Ashish\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Users\Ashish\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:515:28)
+      at Request.<anonymous> (C:\Users\Ashish\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:515:28)
+      at IncomingMessage.<anonymous> (C:\Users\Ashish\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:629:28)
+      at IncomingMessage.emit (node:events:527:35)
+      at endReadableNT (node:internal/streams/readable:1589:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "cookie-parser": "^1.4.6",
+      "cors": "^2.8.5",
+      "express": "^4.18.2",
+      "jsonwebtoken": "^8.5.1",
+      "moment": "^2.29.4",
+      "multer": "^1.4.5-lts.1",
+      "mysql": "^2.18.1",
+      "nodemon": "^2.0.20"
+    },
+    "name": "api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "description": ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
